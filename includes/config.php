@@ -1,6 +1,10 @@
 <?php
+<<<<<<< Updated upstream
 
 $servername = "localhost";
+=======
+//Sert à faire la connexion à la base de données
+>>>>>>> Stashed changes
 $db_user = 'root';
 $db_password = 'Players1';
 $db_name = 'test_tp2_serveur2';

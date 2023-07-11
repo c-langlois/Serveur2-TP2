@@ -1,5 +1,5 @@
 <?php
-//echo 'Hello, my entry point is the initialize.php in the /core folder';
+//sert à initialiser toutes nos exigences du projets (les inclusions des fichiers et librairies)
 
 // Configuration file
 require_once '../includes/config.php';
