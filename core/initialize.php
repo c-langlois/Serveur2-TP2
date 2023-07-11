@@ -6,3 +6,4 @@ require_once '../includes/config.php';
 
 // My model here (the mapping of my database)
 require_once '../core/post.php';
+require_once '../core/category.php';

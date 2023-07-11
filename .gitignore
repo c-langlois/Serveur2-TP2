@@ -2,3 +2,7 @@
 phprest.sql
 
 .DS_Store
+
+includes/config.php
+
+includes/config_sham.php
