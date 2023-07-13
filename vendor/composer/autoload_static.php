@@ -18,6 +18,7 @@ class ComposerStaticInitc704af3e06be51d952d66b6a8865b070
         array (
             'Symfony\\Polyfill\\Php80\\' => 23,
             'Slim\\Psr7\\' => 10,
+            'Slim\\Http\\' => 10,
             'Slim\\' => 5,
         ),
         'P' => 
@@ -55,6 +56,10 @@ class ComposerStaticInitc704af3e06be51d952d66b6a8865b070
         array (
             0 => __DIR__ . '/..' . '/slim/psr7/src',
         ),
+        'Slim\\Http\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/slim/http/src',
+        ),
         'Slim\\' => 
         array (
             0 => __DIR__ . '/..' . '/slim/slim/Slim',
@@ -70,8 +75,8 @@ class ComposerStaticInitc704af3e06be51d952d66b6a8865b070
         ),
         'Psr\\Http\\Message\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-message/src',
-            1 => __DIR__ . '/..' . '/psr/http-factory/src',
+            0 => __DIR__ . '/..' . '/psr/http-factory/src',
+            1 => __DIR__ . '/..' . '/psr/http-message/src',
         ),
         'Psr\\Container\\' => 
         array (
