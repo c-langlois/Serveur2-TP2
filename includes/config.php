@@ -1,15 +1,10 @@
 <?php
-<<<<<<< Updated upstream
-
-$servername = "localhost";
-=======
 //Sert à faire la connexion à la base de données
->>>>>>> Stashed changes
 $db_user = 'root';
 $db_password = 'Players1';
 $db_name = 'test_tp2_serveur2';
 
-$db = new PDO('mysql:host=' . $servername.';port=3307; dbname=' . $db_name . ';charset=utf8', $db_user, $db_password);
+$db = new PDO('mysql:host=localhost;port=3307; dbname=' . $db_name . ';charset=utf8', $db_user, $db_password);
 
 //set some db attributes
 $db->setAttribute(PDO::ATTR_EMULATE_PREPARES, false);
